@@ -32,7 +32,10 @@ No permissions required. This runs as a system live wallpaper.
 ## Preview
 <img src="https://github.com/user-attachments/assets/bf8e6ede-ced6-4aba-9321-c5b3426924e9" width="300" />
 
+## Next Steps
 
+- Making the Code Modular so that Any one can create complex Live Wallpapers in just Minutes
+- Adding AI for the same reason
 
 
 ## 🧠 Notes

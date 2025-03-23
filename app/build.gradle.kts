@@ -9,7 +9,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.dark.wallpapers"
+        applicationId = "com.void.wallpapers"
         minSdk = 29
         targetSdk = 35
         versionCode = 1
@@ -20,11 +20,12 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
     compileOptions {
