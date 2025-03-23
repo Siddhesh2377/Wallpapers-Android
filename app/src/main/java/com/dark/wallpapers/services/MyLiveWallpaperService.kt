@@ -1,4 +1,4 @@
-package com.dark.wallpapers
+package com.dark.wallpapers.services
 
 import android.graphics.BitmapFactory
 import android.graphics.Color
@@ -6,6 +6,7 @@ import android.graphics.Paint
 import android.os.Handler
 import android.service.wallpaper.WallpaperService
 import android.view.SurfaceHolder
+import com.dark.wallpapers.R
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
